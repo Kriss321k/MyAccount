@@ -1,0 +1,61 @@
+.App-form {
+    margin-top: 250px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    min-width: 700px;
+    max-width: fit-content;
+    min-height: 750px;
+    max-height: fit-content;
+    background-color: rgb(141, 227, 237);
+    border-radius: 30px;
+    border-style: ridge;
+    border-color: black;
+    
+    animation: Fade 1s forwards;
+  } @keyframes Fade {
+    0%{ opacity: 0; }
+    100%{ opacity: 100%;}
+    }
+    
+    .App-form h3 {
+      font-size: 40px;
+      color: rgb(42, 54, 165);
+      font-family: cursive;
+      background: -moz-linear-gradient(beige,gray);
+      padding: 10px;
+      border-style: outset;
+      border-radius: 30px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+.Navbar-form {
+  display: flex;
+  background: -moz-linear-gradient(gray,lightblue);
+  text-decoration: none;
+  height: 50px;
+  margin-bottom: 20px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+  .Navbar-form p{
+    display: inline-flex;
+    margin: auto;
+    height: 100%;
+  }
+    .Navbar-item {
+      display: flex;
+      height: 100%;
+      width: 200px;
+      justify-content: center;
+      align-items: center;
+      font-family: cursive;
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      text-decoration-style: dashed;
+    }

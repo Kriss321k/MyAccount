@@ -1,0 +1,75 @@
+.TableField {
+    display: flex;
+    flex-direction: column;
+    background: -moz-linear-gradient(lightblue,rgb(195, 180, 180),lightblue);
+    color: black;
+    font-family: cursive;
+    font-size: 25px;
+    align-items: center;
+    margin: auto;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    animation: Fade 5s forwards;
+} @keyframes Fade {
+    0%{opacity: 0; }
+    50%{opacity: 20%; }
+    100%{opacity: 100%; }
+    }
+
+    .TableField th{
+        font-size: larger;
+    }
+            .TableField th tr td:first-child
+            ,.TableField tbody tr td:first-child
+            {
+                display: flex;
+                margin-inline-start: 10%;
+                width: 150px;
+                margin-bottom: 10px;
+            }
+            .TableField th tr td:nth-child(2)
+            ,.TableField tbody tr td:nth-child(2)
+            {
+                
+                width: 250px;
+            }
+            .TableField th tr td:nth-child(3)
+            ,.TableField tbody tr td:nth-child(3)
+            {
+                
+                width: 200px;
+            }
+
+            .LastTBSummary {
+                font-weight: bolder;
+                text-decoration: underline double;
+            }
+ 
+.OuterChartDiv {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom,lightblue,rgb(160, 155, 155),lightblue);
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 70px;
+
+    animation: Fade 2s forwards;
+} @keyframes Fade {
+    0%{opacity: 0; }
+    100%{opacity: 100%; }
+    }
+                       
+    .ChartDiv {
+        display: flex;
+        width: 560px;
+        height: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        background-color: lightblue
+    }   

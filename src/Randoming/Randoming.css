@@ -1,0 +1,77 @@
+.RandomingDiv {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    min-height: 350px;
+    padding-bottom: 50px;
+    font-family: cursive;
+    color: lightgreen;
+    width: 100%;    
+}
+
+    .RandomingDiv h3 {
+        font-size: 50px;
+    }
+
+    .Randoming-length {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+        .Randoming-checkbox {
+            margin-left: 60px;
+            margin-right: 10px;
+            width: 40px;
+        }.Randoming-checkbox:hover{
+            width: 42px;
+            }
+
+    .Randoming-3Num {
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        justify-content: center;
+    }
+        .Randoming-Num {
+            display: flex;
+            flex-direction: row;
+            width: 25%;
+            margin-left: 2%;
+            margin-right: 2%;
+            background-color: brown;
+            justify-content: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            border-radius: 25%;
+        }
+
+    .Randoming-NumAvg {
+        display: flex;
+        width: 25%;
+        background-color: brown;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+
+    .Randoming-btn {
+        display: flex;
+        width: 25%;
+        font-family: cursive;
+        font-size: 30px;
+        background-color: gray;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border-radius: 40%;
+    }

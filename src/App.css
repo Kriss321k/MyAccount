@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: -moz-radial-gradient(purple,black);
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-style: hidden;  
+}
+
+    .App-header h1, .App-footer h1 {
+      font-size: 50px;
+      color: aqua;
+      animation: blink 3s linear infinite;
+    }
+      @keyframes blink {
+          25%{
+            opacity: 25;
+            color: rgb(156, 135, 135);
+          }  
+          50%{
+            opacity: 25;
+            color: rgb(110, 101, 101);
+          }
+          75%{
+            opacity: 25;
+            color: rgb(156, 135, 135);
+          }     
+      }
+
+.App-banner {
+  display: flex;
+  position: absolute;
+  top: 0;
+  flex-direction: row;
+}
+    .App-banner-nav{
+      margin: 5px;
+      margin-right: 40px;
+      margin-left: 40px;
+      background: -moz-linear-gradient(beige,rgb(220, 220, 80));
+      border-radius: 30px;
+      border: 5px solid gray;
+      text-decoration: none;
+    }
+        .App-banner-nav p{
+          height: fit-content;
+          padding-left: 30px;
+          padding-right: 30px;
+          font-size: 25px;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+          background-image: linear-gradient(to bottom,blue,green,black);
+          -webkit-background-clip: text;
+          -moz-background-clip: text;
+          background-clip: text;
+          color: transparent;
+        }
+
+.App-body {
+  position: relative;
+  background: -moz-radial-gradient(purple,rgb(43, 40, 40),black);
+  min-height: 200px;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-style: hidden;
+}
+
+
+
+.App-footer {
+  position: relative;
+  background: -moz-radial-gradient(purple,black);
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-style: hidden;
+}
