@@ -23,14 +23,19 @@ const Randoming = ()=>{
 
         // On the change of Digit checkbox condition : filter out other checkbox to be unchecked (Only checked 1 of them)
         const DigitChg = (event) =>{
+            // eslint-disable-next-line
             if(event.target.value==2){ setDigit2chk(true); setDigit3chk(false);  
-                setDigit4chk(false); setDigit5chk(false); setDigit6chk(false);}                
+                setDigit4chk(false); setDigit5chk(false); setDigit6chk(false);}
+            // eslint-disable-next-line                
             if(event.target.value==3){ setDigit2chk(false); setDigit3chk(true);  
-                setDigit4chk(false); setDigit5chk(false); setDigit6chk(false);} 
+                setDigit4chk(false); setDigit5chk(false); setDigit6chk(false);}
+            // eslint-disable-next-line 
             if(event.target.value==4){ setDigit2chk(false); setDigit3chk(false);  
-                setDigit4chk(true); setDigit5chk(false); setDigit6chk(false);} 
+                setDigit4chk(true); setDigit5chk(false); setDigit6chk(false);}
+            // eslint-disable-next-line 
             if(event.target.value==5){ setDigit2chk(false); setDigit3chk(false);  
-                setDigit4chk(false); setDigit5chk(true); setDigit6chk(false);} 
+                setDigit4chk(false); setDigit5chk(true); setDigit6chk(false);}
+            // eslint-disable-next-line 
             if(event.target.value==6){ setDigit2chk(false); setDigit3chk(false);  
                 setDigit4chk(false); setDigit5chk(false); setDigit6chk(true);}   }
     
