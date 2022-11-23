@@ -11,4 +11,4 @@
 
 #### Structure
 
-![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountStructure.png)
+![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountStructure.PNG)
