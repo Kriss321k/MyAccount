@@ -7,8 +7,8 @@
 
 ![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountForm1.png) 
 ![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountForm3.png)
-![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountRandoming.png)
+![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountRandom.png)
 
-### Structure
+#### Structure
 
 ![alt text](https://github.com/Kriss321k/portfolio/blob/main/public/MyAccountStructure.PNG)
