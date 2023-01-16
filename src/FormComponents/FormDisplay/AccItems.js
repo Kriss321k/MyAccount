@@ -2,7 +2,7 @@ import './AccItems.css'
 
 
 const AccItems = (prop)=> {
-    const {detail,amount,type} = prop;
+    const {detail,amount,type,time} = prop;
 
     const AmountSTR = parseFloat(amount).toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     
@@ -12,6 +12,7 @@ const AccItems = (prop)=> {
                     <div className="Detail">{detail}</div>  <div className="Amount">{AmountSTR} &#3647;</div>    
                 </div>
                 <div className="Item-Type">{type}</div>
+                <div className="Item-Type" style={{fontStyle :"italic"}}>{time}</div>
             </div>
     )
 }

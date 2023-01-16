@@ -18,14 +18,25 @@ const FormAccount = (prop)=>{
     const onChangeAccAmount = (event)=>{
         setAccAmount(event.target.value);
     }
-    
+
     const submitAccForm = (event)=> {
-        event.preventDefault(); 
+        event.preventDefault();
         
+        let TimeStamp = new Date()
+
+            let Minute = TimeStamp.getMinutes();
+            let Hour = TimeStamp.getHours();
+            let Day = TimeStamp.getDate();
+            let Month = TimeStamp.getMonth()+1;
+            let Year = TimeStamp.getFullYear();
+
+            let DateString = String("Date : " + Day + "/" + Month + "/" + Year + " , " + "Time : " + Hour + "." + Minute);
+                    
         const AccItem = {
             detail : AccDetail,
             amount : CheckedValue==="Type : Income"? Number(AccAmount).toFixed(2): Number(-AccAmount).toFixed(2),
             type : CheckedValue,
+            time : DateString,
             Id : uuidv4()
         }
 

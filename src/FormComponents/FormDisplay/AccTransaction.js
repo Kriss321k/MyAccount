@@ -14,7 +14,8 @@ const AccTransaction = (prop)=> {
     return(
         <div className="TransactionDiv" >
             {Data.map(element=>{
-                return <div className='ListItem' key={uuidv4()}><AccItems detail={element.detail} amount={element.amount} type={element.type} key={element.Id}/>
+                return <div className='ListItem' key={uuidv4()}><AccItems detail={element.detail} amount={element.amount} type={element.type} 
+                        time = {element.time} key={element.Id}/>
                 <button onClick={removeButton}>remove</button></div>
             })}
             
