@@ -1,6 +1,7 @@
 import './FormAccount.css'
 import { useState,useEffect } from 'react'
 import { v4 as uuidv4 } from 'uuid';
+/* eslint-disable */
 
 
 const FormAccount = (prop)=>{
